@@ -1,0 +1,39 @@
+body {
+    background-color: #F0F0F0;
+}
+
+svg {
+    width: 100px;
+    height: 100px;
+}
+
+.white {
+    position: relative;
+    background-color: #FFFFF0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.black {
+    position: relative;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.crown {
+    position: absolute;
+    right: 25%;
+    top: 35%;
+    width: 50%;
+    z-index: 1;
+}
+
+#board {
+    background-color: gray;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
